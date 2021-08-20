@@ -2,7 +2,7 @@ import { Nav,Card,Button } from "react-bootstrap";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getUser } from "../action/user";
-
+import  FormAjoutAdmin from "../conponant/FormAjoutAdmin";
 function Offer() {
   const dispatch = useDispatch();
   const user = useSelector((state) => state.reducerStore.datas);
@@ -27,7 +27,7 @@ function Offer() {
 </div>  
 
 
-
+< FormAjoutAdmin/>
 
 
       {user.map((user) => (<div className="Card">

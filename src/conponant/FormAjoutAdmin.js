@@ -42,8 +42,8 @@ function FormAjoutAdmin() {
     <div>
       {/* ********************modal********************* */}
 
-      <div>
-        <Button variant="primary" onClick={handleShow}>
+      <div >
+        <Button className="modalepost"  variant="primary" onClick={handleShow}>
           Ajouter un nouveau produit
         </Button>
 
